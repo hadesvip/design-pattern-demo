@@ -1,5 +1,7 @@
 package com.design.pattern.strategy.factory;
 
+import com.design.pattern.strategy.consts.BusinessType;
+
 /**
  * 工厂
  *
@@ -11,21 +13,21 @@ public class CashFactory {
     /**
      * cashsuper工厂
      *
-     * @param type
-     * @return
+     * @param type 业务类型
+     * @return 返回 CashSuper
      */
-    public static CashSuper getCashAccept(String type) {
+    public static CashSuper getCashAccept(BusinessType type) {
 
         CashSuper cashSuper = null;
         switch (type) {
-            case "正常收费":
+            case BUSINESS_NORMAL:
                 cashSuper = new CashNormal();
                 break;
 
-            case "满300减100":
+            case BUSINESS_RETURN:
                 cashSuper = new CashReturn(300, 100);
                 break;
-            case "打8折":
+            case BUSINESS_REBATE:
                 cashSuper = new CashRebate("0.8");
                 break;
             default:

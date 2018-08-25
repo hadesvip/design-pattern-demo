@@ -16,5 +16,5 @@ public interface MallService {
      * @param discount 折扣
      * @return 商品* 商品数量
      */
-    double getGoodsPrice(double price, int num, double discount);
+    double getGoodsPrice(double price, int num, String discount);
 }

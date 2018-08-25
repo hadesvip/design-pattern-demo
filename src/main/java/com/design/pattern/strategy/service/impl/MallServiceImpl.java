@@ -15,7 +15,7 @@ public class MallServiceImpl implements MallService {
      * @param num   商品数量
      */
     @Override
-    public double getGoodsPrice(double price, int num, double discount) {
-        return price * num * discount;
+    public double getGoodsPrice(double price, int num, String discount) {
+        return price * num * Double.parseDouble(discount);
     }
 }

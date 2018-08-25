@@ -8,9 +8,9 @@ package com.design.pattern.strategy.factory;
  */
 public class CashReturn implements CashSuper {
 
-    private double moneyCondition = 0.0d;
+    private double moneyCondition;
 
-    private double moneyReturn = 0.0d;
+    private double moneyReturn;
 
     public CashReturn(double moneyCondition, double moneyReturn) {
         this.moneyCondition = moneyCondition;
