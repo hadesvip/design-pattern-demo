@@ -2,7 +2,8 @@ package com.design.pattern.strategy;
 
 
 import com.design.pattern.strategy.factory.CashNormal;
-import com.design.pattern.strategy.factory.CashSuper;
+import com.design.pattern.strategy.service.CashSuper;
+import com.design.pattern.strategy.service.CashAbstractFactory;
 
 /**
  * 正常业务

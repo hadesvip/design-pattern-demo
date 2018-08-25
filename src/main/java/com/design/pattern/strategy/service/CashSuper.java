@@ -1,4 +1,4 @@
-package com.design.pattern.strategy.factory;
+package com.design.pattern.strategy.service;
 
 /**
  * 现金收费抽象

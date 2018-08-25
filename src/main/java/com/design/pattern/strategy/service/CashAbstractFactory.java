@@ -1,6 +1,4 @@
-package com.design.pattern.strategy;
-
-import com.design.pattern.strategy.factory.CashSuper;
+package com.design.pattern.strategy.service;
 
 /**
  * 抽象工厂

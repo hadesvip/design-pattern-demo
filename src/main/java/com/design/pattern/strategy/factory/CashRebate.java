@@ -1,5 +1,7 @@
 package com.design.pattern.strategy.factory;
 
+import com.design.pattern.strategy.service.CashSuper;
+
 /**
  * 打折收费子类
  *

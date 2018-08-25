@@ -2,7 +2,7 @@ package com.design.pattern.strategy.main;
 
 import com.design.pattern.strategy.consts.BusinessType;
 import com.design.pattern.strategy.factory.CashFactory;
-import com.design.pattern.strategy.factory.CashSuper;
+import com.design.pattern.strategy.service.CashSuper;
 
 /**
  * 工厂实现
