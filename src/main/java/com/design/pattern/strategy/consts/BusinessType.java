@@ -3,8 +3,6 @@ package com.design.pattern.strategy.consts;
 import com.design.pattern.strategy.CashNormalFactory;
 import com.design.pattern.strategy.CashRebateFactory;
 import com.design.pattern.strategy.CashReturnFactory;
-import com.design.pattern.strategy.factory.CashNormal;
-import com.design.pattern.strategy.factory.CashRebate;
 
 /**
  * 业务类型常量

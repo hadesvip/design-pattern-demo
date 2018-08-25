@@ -8,39 +8,48 @@
         com.design.pattern.strategy
         
     * 阶段1：
-        没有使用设计模式，只是使用了方法的封装，抽取常量
-        DiscountConsts
-        MallService
-        MallServiceImpl
-        Console
+         没有使用设计模式，只是使用了方法的封装，抽取常量
+         ```
+            DiscountConsts
+            MallService
+            MallServiceImpl
+            Console
+         
+         ```
     
     * 阶段2：
         简单工厂模式
-        CashSuper
-        CashNormal
-        CashRebate
-        CashReturn
-        CashFactory
-        FactoryMain
+        ```
+           CashSuper
+           CashNormal
+           CashRebate
+           CashReturn
+           CashFactory
+           FactoryMain
+        ```
     
     * 阶段3:
         策略模式+简单工厂
-        CashSuper
-        CashNormal
-        CashRebate
-        CashReturn
-        CashContext
-        StrategyMain
+        ```
+            CashSuper
+            CashNormal
+            CashRebate
+            CashReturn
+            CashContext
+            StrategyMain
+        ```
     
     * 阶段4:
         策略模式+抽象工厂+反射
-        CashSuper
-        BusinessType
-        CashAbstractFactory
-        CashNormalFactory
-        CashRebateFactory
-        CashReturnFactory  
-        StrategyMain    
+        ```
+            CashSuper
+            BusinessType
+            CashAbstractFactory
+            CashNormalFactory
+            CashRebateFactory
+            CashReturnFactory  
+            StrategyMain
+        ```    
        
        
        

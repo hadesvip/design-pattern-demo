@@ -3,7 +3,7 @@ package com.design.pattern.strategy.factory;
 import com.design.pattern.strategy.service.CashSuper;
 
 /**
- * 返利收费
+ * 满减
  *
  * @author wangyong
  * @date 2018年08月25日
