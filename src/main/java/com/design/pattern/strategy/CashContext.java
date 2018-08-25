@@ -14,7 +14,7 @@ import java.lang.reflect.InvocationTargetException;
  * 策略模式的核心
  *
  * @author wangyong
- * @date ${date}
+ * @date 2018年08月25日
  */
 public class CashContext {
 
