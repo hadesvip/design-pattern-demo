@@ -1,2 +1,3 @@
 rootProject.name = 'design-pattern-demo'
+include 'builder'
 
